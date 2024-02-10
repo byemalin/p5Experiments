@@ -18,7 +18,7 @@ function draw() {
   c.setAlpha(10);
   background(c);
 
-  // TODO: Add push and pop to isolate the yellow spiral
+  // Add push and pop to isolate the yellow spiral
   push();
   translate(yellowX, yellowY); // Start of code for yellow spiral
   rotate(frameCount * -0.002);
@@ -30,8 +30,8 @@ function draw() {
     line(0, 0, 0, 240);
   } // End of code for yellow spiral
   pop();
-  
-  // TODO: Add push and pop to isolate the blue spiral
+
+  // Add push and pop to isolate the blue spiral
   push();
   translate(blueX, blueY); // Start of code for blue spiral
   rotate(frameCount * 0.002 + PI / 8);
